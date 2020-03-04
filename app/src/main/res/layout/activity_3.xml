@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="64dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text=" Merit Rank"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="199dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="142dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="177dp"
+            android:layout_height="55dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="175dp"
+                android:layout_height="55dp"
+                android:text=" Select Caste"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="127dp"
+            android:layout_height="160dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/g1"
+                    android:layout_width="match_parent"
+                    android:layout_height="17dp"
+                    android:layout_weight="1"
+                    android:text="General"
+                    android:textSize="17sp" />
+
+                <RadioButton
+                    android:id="@+id/g2"
+                    android:layout_width="103dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1"
+                    android:text="SEBC" />
+
+                <RadioButton
+                    android:id="@+id/g3"
+                    android:layout_width="103dp"
+                    android:layout_height="12dp"
+                    android:layout_weight="1"
+                    android:text="SC" />
+
+                <RadioButton
+                    android:id="@+id/g4"
+                    android:layout_width="95dp"
+                    android:layout_height="18dp"
+                    android:layout_weight="1"
+                    android:text="ST" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="314dp"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="172dp"
+            android:layout_height="221dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="153dp"
+                android:layout_height="66dp"
+                android:text="Select Stream"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/r0"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="IT" />
+
+                <RadioButton
+                    android:id="@+id/r1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Computer" />
+
+                <RadioButton
+                    android:id="@+id/r2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mechanical" />
+
+                <RadioButton
+                    android:id="@+id/r3"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Civil" />
+
+                <RadioButton
+                    android:id="@+id/r4"
+                    android:layout_width="91dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="EC" />
+
+                <RadioButton
+                    android:id="@+id/r6"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Electrical" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#a6bbf2"
+            android:text="Get Result"
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp" />
+</RelativeLayout>
